@@ -1,0 +1,35 @@
+body {
+             font-family: Arial, sans-serif;
+             background-image: url('../static/1.jfif');
+             background-size: cover; 
+             background-position: center; 
+             background-repeat: no-repeat;
+             margin: 0;
+             padding: 0;
+        }
+
+        .container {
+             width: 100%;
+             max-width: 800px;
+             margin: 60px auto;
+             padding: 30px 55px;
+             background-color: #ffffff;
+             border-radius: 10px;
+             box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .profile-image {
+            max-width: 220px;
+            border-radius: 10px;
+        }
+
+        .info {
+            max-width: 70%;
+            margin-bottom: 50;
+            font-size: 150%;
+        }
